@@ -1,0 +1,174 @@
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+    display: flex; /* Display children in a row */
+    
+    align-items: center; /* Align items vertically */
+    padding: 20px 20px; /* Adjust as needed */
+}
+
+/* Style the logo */
+.logo img {
+    max-height: 70px; 
+    margin-right: 500px;/* Adjust the height of the logo */
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    
+}
+
+
+.nav-links li {
+    display: inline;
+    margin-right: 40px; /* Adjust the spacing between links */
+   
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #00154A;
+    font-weight: bolder;
+    text-align: right;
+    
+}
+
+.container {
+    background-color:  rgb(1, 7, 27);
+    color: rgb(250, 248, 246);
+    padding: 20px 20px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+body {
+    padding-top: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+/*header and footer styling done!!!!!!!*/
+
+/*main starts below*/
+
+
+/* styles.css */
+
+/* Apply general styling to all divs */
+div {
+    text-align: center;
+    margin: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Style h2 elements within divs */
+  div h2 {
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 30px;
+    margin-top: 40px; /* Adjust margin as needed */
+  }
+  
+  /* Style images within divs */
+  div img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+ /* Adjust margin as needed */
+  }
+  
+  /* Style p elements within divs */
+  div p {
+    font-size: 1rem; /* Adjust font size as needed */
+    line-height: 1.4;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 30px; /* Adjust margin as needed */
+  }
+
+  #botcard {
+    display: inline;
+  }
+
+  .card{
+    display: inline-flex;
+    height: 300px;
+  }
+  
+  .btn {
+    margin-top: 30px;
+  }
+
+  .card-body>li {
+    font-weight:500;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(59, 57, 57);
+  }
+
+
+  /*contact us*/
+
+  .contact-wrapper {
+    text-align: center;
+    padding: 50px;
+    
+  }
+  
+  .contact-wrapper h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(240, 240, 240);
+  }
+  
+  .contact-wrapper p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+
+.card1 {
+    display: inline-block;
+}
+
+.card-img-top{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgb(255, 255, 255);
+}
+
+.d-block>a{
+  background-color: orangered;
+  padding-top: 10px;
+}
+
+.car{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
